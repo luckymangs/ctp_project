@@ -184,7 +184,7 @@ if ($submit)
 						INSERT INTO people VALUES ('','$fullname','$username','$password','$date')
 						");
 						
-						Header("index.php");
+						Header("Location:index.php");
 						
 						}
 					}
